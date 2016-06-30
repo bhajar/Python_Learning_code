@@ -39,5 +39,60 @@ factor = 1.1
 result = savings * factor**7
 print(result)
 
+# create more variables
+# Create a variable desc
+desc = "compound interest"
+
+# Create a variable profitable
+profitable = True
+type(profitable)
+print("great" + "game")
+
+# Several variables to experiment with
+savings = 100
+factor = 1.1
+desc = "compound interest"
+
+# Assign product of factor and savings to year1
+year1 = factor * savings
+
+# Print the type of year1
+type(year1)
+
+# Assign sum of desc and desc to doubledesc
+doubledesc = desc + desc
+
+# Print out doubledesc
+print(doubledesc)
+
+# Definition of savings and result
+savings = 100
+result = 100 * 1.10 ** 7
+
+# if we need to convert something to a string, it can be done using str()
+# Fix the printout
+print("I started with $" + savings + " and now have $" + result + ". Awesome!")
+print("I started with $" + str(savings) + " and now have $" + str(result) + ". Awesome!")
+
+# Definition of pi_string
+pi_string = "3.1415926"
+
+# Convert pi_string into float: pi_float
+type(pi_string)
+pi_string = float(pi_string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
